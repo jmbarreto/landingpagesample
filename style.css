@@ -12,11 +12,11 @@ body {
   min-height: 300px;
 }
 .carousel-caption {
-  bottom: 520px;
+  bottom: 620px;
   z-index: 2;
 }
 .carousel-caption h5 {
-  font-size: 45px;
+  font-size: 40px;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: 15px;
@@ -72,6 +72,8 @@ body {
 }
 .w-100 {
   height: 100vh;
+  object-fit: scale-down;
+  /* background-image: url(img/background3.jpg); */
 }
 .navbar-toggler {
   padding: 1px 5px;
